@@ -96,7 +96,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+# .env  # Comentado para incluir .env no repositório
 .venv
 env/
 venv/
@@ -135,4 +135,8 @@ test_*.db
 # OS
 .DS_Store
 Thumbs.db
+
+# Logs
+logs/
+*.log
 
